@@ -1,0 +1,4 @@
+1. Arduino Hardware Integration: The Google Drive link provided demonstrates how Arduino hardware, including an Arduino Mega or Uno and an RFID-RC522 module, is utilized to scan unique identifiers (UIDs) from RFID cards. This integration showcases the hardware setup and illustrates the process of capturing UID data.
+
+2. Simulation of Bill Payment: Within the project, a simulated bill payment process is implemented to provide users with a comprehensive experience. This simulation, triggered upon scanning a UID, presents users with bill-related information without deducting actual payments. Instead, the bill payment process is simulated, ensuring a seamless user interaction while accurately reflecting the payment status.
+https://drive.google.com/drive/folders/1u6oUCvjd1M3sEUWJSYoSxC0gt1ia_8zL
