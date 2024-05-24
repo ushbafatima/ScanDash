@@ -41,7 +41,7 @@ Create a database named user.
 Import the SQL scripts located in Database-ScanDash to set up the required tables.
 Configure Database Connection
 
-Update the database connection details in the ViewCartWindow.java file.
+Update the database connection details in the DBConnect.java file.
 java
 Copy code
 final String DB_URL = "jdbc:mysql://localhost:3306/user";
