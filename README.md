@@ -1,0 +1,36 @@
+# ScanDash
+
+ScanDash is a smart cart application that enhances the shopping experience by allowing customers and managers to easily scan products using RFID technology. Built with Java Swing for the user interface and integrated with a MySQL database, ScanDash simplifies inventory management for managers and provides a seamless shopping experience for customers.
+
+## Features
+
+### For Managers:
+- Add, remove, and manage inventory items.
+- Input item details such as price, quantity, and description.
+- View and update the database of products.
+
+### For Customers:
+- Login with their membership credentials.
+- Scan products to add them to their cart.
+- View their cart and proceed to checkout.
+
+## Technology Stack
+- *Frontend:* Java Swing
+- *Backend:* Java
+- *Database:* MySQL
+- *RFID Integration:* Arduino
+
+## Getting Started
+
+### Prerequisites
+- Java Development Kit (JDK) 8 or higher
+- MySQL Server
+- Arduino IDE (for RFID setup)
+- Maven (for dependency management)
+
+### Installation
+
+1. *Clone the Repository*
+   ```sh
+   git clone https://github.com/yourusername/scandash.git
+   cd scandash
