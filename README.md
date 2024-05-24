@@ -31,6 +31,31 @@ ScanDash is a smart cart application that enhances the shopping experience by al
 ### Installation
 
 1. *Clone the Repository*
-   ```sh
+
    git clone https://github.com/yourusername/scandash.git
    cd scandash
+
+   Setup the MySQL Database
+
+Create a database named user.
+Import the SQL scripts located in Database-ScanDash to set up the required tables.
+Configure Database Connection
+
+Update the database connection details in the ViewCartWindow.java file.
+java
+Copy code
+final String DB_URL = "jdbc:mysql://localhost:3306/user";
+final String USERNAME = "root";
+final String PASSWORD = "yourpassword";
+Build and Run the Application
+
+Usage
+Start the Application
+
+Run the Progress class to launch the initial loading screen and navigate to the FirstWindow for user selection (Manager or Customer).
+Manager Functions
+
+Login as a manager to add, remove, and manage inventory items.
+Customer Functions
+
+Login as a customer to scan items and manage their cart.
