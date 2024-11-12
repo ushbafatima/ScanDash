@@ -1,7 +1,7 @@
 
 
 // Product class
-class Product {
+public class Product {
     private String name;
     private String prodID;
     private double price;
